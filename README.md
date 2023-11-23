@@ -20,14 +20,14 @@ On SAMM, we compared with a wide range of 8 state-of-the-art methods as below. O
 | AU-GACN | 2020 | GCN | 70.20 | 0.4330 |
 | MMNet | 2022 | CNN+Transformer | 90.22 | 0.8391 |
 | FRL-DGT | 2023 | CNN+Transformer | - | 0.7720 |
-| MixFormer(ours) | 2023 | CNN+Transformer | **90.23** | **0.8477** |
+| **MixFormer(ours)** | **2023** | **CNN+Transformer** | **90.23** | **0.8477** |
 
 On the MMEW dataset, MixMeFormer also shows superior performance over MMNet.
 
 | Method    | Acc(%)       | F1-score        |
 | ------------------------------------------------------------ | :--: | :--: |
 | MMNet | 87.45 | 0.8635 |
-| MixFormer(ours) | **88.59** | **0.8698** |
+| **MixFormer(ours)** | **88.59** | **0.8698** |
 
 Besides, we compared our MEMix with six mixup augmentation methods, including three newly proposed mixup methods [Manifold Mixup](https://github.com/DaikiTanak/manifold_mixup), [Remix](https://github.com/agaldran/balanced_mixup) and [MixAugment](https://github.com/dongdong69/MixAugmentation). This experiment was conducted based on the ViT-B architecture on the 5 classes CASME II dataset. Our MEMix achieves the highest improvements in both accuracy and F1-score.
 
@@ -40,7 +40,7 @@ Besides, we compared our MEMix with six mixup augmentation methods, including th
 | [TransMix](https://github.com/Beckschen/TransMix)            | 83.74(+9.76) | 0.8048(+0.0848) |
 | [Remix](https://github.com/agaldran/balanced_mixup)          | 82.52(+8.54) | 0.8186(+0.0986) |
 | [MixAugment](https://github.com/dongdong69/MixAugmentation)  | 83.33(+9.35) | 0.8254(+0.1054) |
-| MEMix(ours) | **85.37(+11.39)** | **0.8365(+0.1165)** |
+| **MEMix(ours)** | **85.37(+11.39)** | **0.8365(+0.1165)** |
 
 
 ### Hyperparameter Experiments
@@ -52,7 +52,7 @@ $K$ determines the number of patches selected to construct the mixing mask $M$. 
 **The experimental results of varying $K$ are summarized in the table below:**
 |  K   |   1    |   40   |   79   |  118   |  157   |  196   |
 | :--: | :----: | :----: | :----: | :----: | :----: | :----: |
-| Acc(%)  | 0.7805 | 0.8699 | 0.8618 | 0.8577 | 0.8496 | 0.8333 |
+| Acc(%)  | 0.7805 | **0.8699** | 0.8618 | 0.8577 | 0.8496 | 0.8333 |
 
 We also studied the impact of the hyperparameter $\alpha_k$, which controls the beta distribution for sampling $K$. As can be seen, $\alpha_k=2.0$ achieves the optimal accuracy, while too small or too large values degrade the performance.
 
