@@ -1,8 +1,6 @@
 # MEMix
 
-This is the official code of the paper: 
-
-**Facial Micro-motion-aware Mixup for Micro-expression Recognition**
+This is the official code of the [paper](https://ieeexplore.ieee.org/document/10446492): **Facial Micro-motion-aware Mixup for Micro-expression Recognition**, ICASSP 2024.
 
 ## Experiment Results
 
@@ -62,3 +60,17 @@ We also studied the impact of the hyperparameter $\alpha_k$, which controls the 
 | :---------: | :---: | :---: | :---: | :---: | :---: |
 | Acc(%) | 84.96 | 85.37 | **89.84** | 86.59 | 86.59 |
 
+## Citation
+If you find this repository useful, please cite the paper:
+```
+@INPROCEEDINGS{10446492,
+  author={Gu, Zhuoyao and Pang, Miao and Xing, Zhen and Tan, Weimin and Jiang, Xuhao and Yan, Bo},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Facial Micro-Motion-Aware Mixup for Micro-Expression Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={8060-8064},
+  keywords={Face recognition;Computational modeling;Semantics;Speech recognition;Signal processing;Transformers;Data models;Micro-expression recognition;Data augmentation;Vision transformer},
+  doi={10.1109/ICASSP48485.2024.10446492}}
+```
